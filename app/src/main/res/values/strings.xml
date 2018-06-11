@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TZMusic</string>
+    <string name="bac">个性换肤</string>
+    <string name="sing">听歌识曲</string>
+    <string name="timing">定时停止播放</string>
+    <string name="scan">扫一扫</string>
+    <string name="alarm">音乐闹钟</string>
+    <string name="drive">驾驶模式</string>
+    <string name="netdisk">音乐网盘</string>
+    <string name="coupon">优惠券</string>
+    <string name="dark">夜间模式</string>
+    <string name="light">日间模式</string>
+    <string name="set">设置</string>
+    <string name="exit">退出</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

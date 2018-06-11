@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/me"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mes"
+            android:icon="@drawable/mes"
+            android:title="我的消息"
+            />
+        <item android:id="@+id/vip"
+            android:icon="@drawable/vip"
+            android:title="VIP会员"
+            />
+        <item android:id="@+id/shop"
+            android:icon="@drawable/shop"
+            android:title="商城"/>
+        <item android:id="@+id/game"
+            android:icon="@drawable/game"
+            android:title="游戏推荐Beta"/>
+        <item android:id="@+id/flow"
+            android:icon="@drawable/flow"
+            android:title="在线听歌免流量"/>
+    </group>
+    <group android:id="@+id/person">
+        <item android:id="@+id/friend"
+            android:icon="@drawable/friend"
+            android:title="我的好友"/>
+        <item android:id="@+id/nearby"
+            android:icon="@drawable/nearby"
+            android:title="附近的人"/>
+
+    </group>
+
+    <group >
+        <item android:id="@+id/bac"
+            android:icon="@drawable/bac"
+            android:title="@string/bac"/>
+        <item android:id="@+id/sing"
+            android:icon="@drawable/sing"
+            android:title="@string/sing"/>
+        <item android:id="@+id/timing"
+            android:icon="@drawable/timing"
+            android:title="@string/timing"/>
+        <item android:id="@+id/alarm"
+            android:icon="@drawable/alarm"
+            android:title="@string/alarm"/>
+        <item android:id="@+id/drive"
+            android:icon="@drawable/drive"
+            android:title="@string/drive"/>
+        <item android:id="@+id/netdisk"
+            android:icon="@drawable/netdisk"
+            android:title="@string/netdisk"/>
+        <item android:id="@+id/coupon"
+            android:icon="@drawable/coupon"
+            android:title="@string/coupon"/>
+        <item
+            android:icon="@drawable/coupon"
+            android:title="@string/coupon"/>
+        <item
+            android:icon="@drawable/coupon"
+            android:title="@string/coupon"/>
+    </group>
+</menu>
