@@ -12,8 +12,17 @@
     <string name="light">日间模式</string>
     <string name="set">设置</string>
     <string name="exit">退出</string>
-
-
+    <!--视频界面-->
+    <string name="prefer">推荐</string>
+    <string name="music">音乐</string>
+    <string name="showtime">Showtime</string>
+    <string name="mv">MV</string>
+    <string name="element">二次元</string>
+    <string name="dance">舞蹈</string>
+    <string name="game">游戏</string>
+    <!--发现-->
+    <string name="friend">朋友</string>
+    <string name="video">电台</string>
 
 
 

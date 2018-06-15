@@ -4,17 +4,17 @@
     android:layout_height="180dp"
     android:background="#99633211"
     android:fitsSystemWindows="true"
-    android:paddingTop="30dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingTop="30dp">
 
     <ImageView
         android:id="@+id/personal_iv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/amc"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
-         android:layout_marginTop="45dp"/>
+        android:layout_marginTop="45dp"
+        android:src="@drawable/amc" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,20 +26,24 @@
             android:id="@+id/personal_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="zjh_lll" />
+            android:text="zjh_lll"
+            android:theme="@style/MenuText"
+             />
 
         <TextView
             android:id="@+id/personal_grade"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/personal_name"
-            android:text="Lv.2" />
+            android:text="Lv.2"
+            android:textColor="@color/text_dark" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_marginRight="8dp"
-            android:text="签到" />
+            android:text="签到"
+            android:textColor="@color/text_dark" />
     </RelativeLayout>
 </LinearLayout>

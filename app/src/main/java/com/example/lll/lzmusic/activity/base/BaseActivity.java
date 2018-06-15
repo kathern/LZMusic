@@ -1,12 +1,14 @@
 package com.example.lll.lzmusic.activity.base;
 
 import android.app.Activity;
+import android.content.Context;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -51,4 +53,14 @@ public abstract class BaseActivity extends AppCompatActivity{
         }
     }
 
+    /**
+     * 获取屏幕的宽、高
+     */
+    public int getWidthPixel(){
+        WindowManager win= (WindowManager) this.getSystemService(Context.WINDOW_SERVICE);
+        DisplayMetrics metrics=new DisplayMetrics();
+        win.getDefaultDisplay().getMetrics(metrics);
+        int width=metrics.widthPixels;
+        return metrics.widthPixels;
+    }
 }

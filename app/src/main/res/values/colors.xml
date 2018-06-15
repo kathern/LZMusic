@@ -3,8 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="colorMain">#e3453a</color>
+    <color name="colorTab">#efd1d0</color>
     <color name="bac_dark">#000</color>
     <color name="bac_light">#fff</color>
     <color name="text_dark">#000</color>
-    <color name="text_light">#333333</color>
+    <color name="text_light">#333</color>
 </resources>

@@ -5,6 +5,7 @@ import android.content.Context;
 import android.support.design.internal.NavigationMenuPresenter;
 import android.support.design.internal.NavigationMenuView;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.TabLayout;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
@@ -21,13 +22,6 @@ import java.lang.reflect.Field;
 
 public class NavigationViewUtils {
     private static int height = 20;
-
-    /**
-     * 设置NavigationViewItem高度
-     */
-    public static void setNavigationItemHeight(NavigationView nv){
-
-    }
 
     /**
      * 设置NavigationSeperator高度
@@ -76,6 +70,14 @@ public class NavigationViewUtils {
         NavigationMenuView menuView = (NavigationMenuView) nv.getChildAt(0);
         if(menuView!=null){
             menuView.setVerticalScrollBarEnabled(false);
+        }
+    }
+
+    public static void setTabIndicator(TabLayout tabLayout){
+        try {
+            Field tab=tabLayout.getClass().getDeclaredField("mTabStrip");
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
         }
     }
 

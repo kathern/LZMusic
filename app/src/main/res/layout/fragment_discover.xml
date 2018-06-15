@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.TabLayout
+        app:tabIndicatorColor="@color/bac_light"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/bac_light"
+        app:tabTextColor="@color/colorTab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorMain"
+        android:paddingBottom="6dp"
+        >
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prefer"
+            />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music" />
+
+        <android.support.design.widget.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/showtime" />
+    </android.support.design.widget.TabLayout>
+    <com.youth.banner.Banner
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+</android.support.constraint.ConstraintLayout>
